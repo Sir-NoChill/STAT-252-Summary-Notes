@@ -70,7 +70,9 @@
 
 \definecolor{answer_color}{HTML}{F7F8E0}
 \definecolor{question_color}{HTML}{f2f2f2}
+\definecolor{preamble_color}{HTML}{f2f2f2}
 \declaretheorem[shaded={bgcolor=question_color}]{question}
+\declaretheorem[shaded={bgcolor=preamble_color}]{preamble} % should find a different colur for this
 \declaretheorem[shaded={bgcolor=answer_color}]{answer}
 \declaretheorem[shaded={bgcolor=green!80!black!30}]{tanswer}
 \declaretheorem[shaded={bgcolor=cyan}]{note}
@@ -161,9 +163,11 @@ Process for performing a hypothesis test using the t-distribution:
 
 \section{Appendix A - Questions and Answers}
 \subsection{Chapter 1}
-\begin{question}
-    In Orangetown in 2014, middle-aged people between the ages of 40-50 years old joined two different groups, an exercise group and a group that watched movies together. The participants had made their own decision about which group to join. In 2019, researchers selected random samples from each of these two groups to investigate any possible effects of activity group (exercise group versus movie group) on their mental and physical health. They took records of their systolic blood pressure (SBP) readings (in mm Hg), their Body Mass Index (BMI), that is body weight/(height)2 (in kg/cm2), and their feelings of wellbeing (on a scale of 1-5).
-    
+\begin{preamble}
+In Orangetown in 2014, middle-aged people between the ages of 40-50 years old joined two different groups, an exercise group and a group that watched movies together. The participants had made their own decision about which group to join. In 2019, researchers selected random samples from each of these two groups to investigate any possible effects of activity group (exercise group versus movie group) on their mental and physical health. They took records of their systolic blood pressure (SBP) readings (in mm Hg), their Body Mass Index (BMI), that is body weight/(height)2 (in kg/cm2), and their feelings of wellbeing (on a scale of 1-5).
+\end{preamble}
+% break this up into atomic questions, likewise with the answers
+\begin{question}    
     \begin{itemize}
         \item[a] Identify the study units
         \item[b] What is/are the explanatory variable(s) or factor(s)? State the type of data scale used (e.g.,
@@ -200,6 +204,38 @@ Process for performing a hypothesis test using the t-distribution:
         \item[h] We cannot make causal inferences based on this study since there was no random assignment to these groups.
     \end{itemize}
 \end{tanswer}
+\begin{preamble}
+    In 2016, a researcher in a health product company in Toronto wanted to test whether a new health drink
+    he had developed is effective in improving the general health of their customers. He sent emails to all
+    their customers asking for volunteers to participate in the study. It took one month to organize the study.
+    A total of 100 customers wanted to participate. From this group, he asked for volunteers who wanted to
+    join the treatment group and consume the new health drink daily, with 65 customers responding that they
+    wanted to try the drink. The remaining 35 customers formed the control group and were not given the
+    health drink. After six months, the researcher measured heartbeat rates (in beats per minute), cholesterol
+    levels (in milligrams per deciliter), and fitness level (on a scale of 1-15, based on performance in several
+    exercise tests) of all participants.
+\end{preamble}
+\begin{question}
+    Identify the study units
+\end{question}
+
+\begin{answer}
+    The study units in this case are the 100 voluntary customers that chose to participate in the study.
+\end{answer}
+
+\begin{question}
+    What is the population of interest?
+\end{question}
+
+\begin{answer}
+    The population of interest is the customers of the health drink company.
+\end{answer}
+
+\begin{question}
+    What is/are the explanatory variables? What types of data are used?
+\end{question}
+
+
 \begin{question}
     According to a 2002 article in a national newspaper, female students attending private schools in Canada
     scored significantly better on a standardized aptitude test than males. The results were from a random
